@@ -1,0 +1,49 @@
+/* THESE ARE BLOCK ELEMENTS */
+body 
+{ 
+    font-family: Futura, Helvetica, sans-serif;
+    background-color: #C02222;
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+h1, h2, h3
+{
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+
+h1
+{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+h2
+{
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    color: black;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
+blockquote
+{
+    margin: 0;
+    background-color: black ;
+    font-weight: bold;
+    font-size: 130%;
+    line-height: 150%;
+    padding: 2em;
+    font-family: Georgia;
+}
+
+figcaption
+{
+    color: black;
+}

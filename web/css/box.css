@@ -1,0 +1,19 @@
+* 
+{ 
+    border: 3px solid black; 
+    margin: 5px;
+    padding: 3px;
+}
+
+/* THESE ARE BLOCK ELEMENTS */
+body { border-color: red; }
+h1 { border-color: blue; }
+h2 { border-color: green; }
+h3 { border-color: purple; }
+p { border-color: orange; }
+ul { border-color: yellow; }
+li { border-color: brown; }
+
+/* THESE ARE INLINE ELEMENTS */
+em { border-color: gray; }
+strong { border-color: pink; }
