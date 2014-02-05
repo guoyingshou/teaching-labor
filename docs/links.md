@@ -117,7 +117,15 @@ Title attribute
    title="check out my home page">click here</a>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Image links
+-------------------------
 
+* the image source (``img`` tag, ``src`` attribute) specifies a link to an image file
+* Duckett has a good discussion of different image types and how to prepare them for web pages
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~{.html}
+<img src="img/phoot.jpg">
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Link to a stylesheet
 -------------------------
@@ -127,3 +135,10 @@ Link to a stylesheet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~{.html}
 <link href="css/labor3.css" type="text/css" rel="stylesheet" />
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The End
+------------------------
+
+[The Course Wiki](https://github.com/mcuringa/teaching-labor/wiki)
+
+
