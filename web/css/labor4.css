@@ -1,0 +1,205 @@
+/* custom fonts */
+
+@font-face
+{
+    font-family: Superstar;
+    src: url(fonts/superstar.ttf);
+}
+
+body 
+{ 
+    font-family: Futura, "Ubuntu", "Gill Sans", "Century Gothic", "Trebuchet MS", sans-serif;   
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+h1
+{
+    font-weight: bold;
+    font-size: 250%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+section
+{
+    clear: both;
+}
+
+div.divide
+{
+    background-color: black;
+    height: 3px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.center
+{
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ======================================= HEADER STUFF */
+header
+{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    padding: 0;
+}
+
+header h1
+{
+/*    font-family: Superstar;*/    
+    font-size: 54px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
+header h1 strong
+{
+    color: #C02222;
+}
+
+/* ======================================= INTRO SECTION */
+#intro
+{
+    background: url(img/disarm_1200.jpg) left 80px no-repeat white;
+    padding-top: 600px;
+    text-align: center;
+}
+
+#intro h1
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0 auto;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: .25em .5em;
+
+}
+
+
+/* ======================================= INFO SECTION */
+
+#info p
+{
+    font-size: 150%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+/* ======================================= FACTS SECTION */
+#facts
+{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#facts a
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#facts div
+{
+    background-color: #000000;
+    color: white;
+    float: left;
+    font-size: 120%;
+    height: 437px;
+    padding: 0 2em;
+    width: 400px;
+}
+
+/* ======================================= INSTRUCTORS SECTION */
+
+#who h3
+{
+    font-style: italic;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+/* ======================================= QUOTE SECTION */
+#zinn
+{
+    background: url(img/strike_900.jpg) left top no-repeat black ;
+}
+
+#zinn blockquote
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 130%;
+    padding: 2em;
+    font-family: Georgia;
+    text-shadow: 0px 1px 4px white;
+}
+
+
+#soon
+{
+    position: relative;
+    min-height: 400px;
+    max-height: 900px;
+    overflow: hidden;
+}
+#soon h1, h2
+{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+#soon video
+{
+    position: absolute;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    /*background: url(polina.jpg) no-repeat;
+    background-size: cover; */
+}
+
+/* FOOTER */
+footer
+{
+    /* official adelphi "brown" */
+    background-color: #441700; 
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+footer a
+{
+    color: white;
+    text-decoration: underline;
+}
+footer img
+{
+    display: block;
+    margin: 0 auto;
+}
