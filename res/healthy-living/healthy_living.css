@@ -1,0 +1,270 @@
+
+
+body
+{
+  background-color: #0A0A2A;
+  background-image: url('images/ocean_background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 300px;
+}
+
+div.center
+{
+  margin: 0 auto;
+  border: thin solid black;
+  display: inline-block;
+}
+
+#how img
+{
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+#links
+{
+  font-size: 18px;
+  height: auto;
+  padding: .5em;
+  margin: 2em 200px;
+  background-color: #FFFFFF;
+  opacity: 0.5;
+}
+
+#links a:link , a:visited
+{
+  text-align:center;
+  text-decoration: none; 
+  font-size: 20px;
+  height: auto;
+  margin: auto;
+  font-family: Papyrus;
+  color: #0A0A2A;
+}
+
+#links a:hover 
+{
+  text-decoration: none; 
+  color: #0080FF;
+  font-family: Papyrus;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#links a
+{
+  padding-right: 2em;
+}
+
+a#smile
+{
+  padding-right: 0;
+}
+
+#by p
+{
+  font-family: Bradley Hand ITC;
+  color: #0A0A2A;
+  text-align:center;
+  font-size: 24px;
+  height: auto;
+  padding: 5px;
+  background-color: #01A4A4;
+  margin: 0px 0px 0px 0px;
+}
+
+h1
+{
+  font-family: Bradley Hand ITC;
+  background-color: #FF0080;
+  color: #0A0A2A;
+  text-align:center;
+  font-size: 40px;
+  height: auto;
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+}
+
+
+h3
+{
+  font-family: Verdana;
+  color: #01A4A4;
+  border-top: 2px solid #BDBDBD;
+  padding: 10px 0px 0px 0px;
+}
+
+p
+{
+  font-family: Verdana;
+  color: #0A0A2A;
+  background-color: #BDBDBD;
+}
+
+h2
+{
+  font-family: Papyrus;
+  color: #2EFE9A;
+  text-align: center;
+
+}
+
+#remember h3
+{
+  font-family: Verdana;
+  color: #FFBF00;
+
+}
+
+h4
+{
+  font-family: Verdana;
+  color: #FFBF00;
+  border-top: 2px solid #BDBDBD;
+  padding: 10px 0px 0px 0px;
+}
+
+ul
+{
+  font-family: Verdana;
+  color: #FE2E64;
+}
+
+
+div p {
+ padding: 10px 0px;
+}
+
+#section1 img
+{
+  float: left;
+  margin: 5px 5px 100px 5px;
+  padding: 10px;
+}
+
+#silhouette_1 img
+{
+  float: right;
+  margin: 10px 0px 0px 0px;
+  padding: 40px;
+}
+
+#live  
+{
+  clear: left;
+}
+
+#section2  img
+{
+  float: left;
+  margin: 5px 5px 100px 5px;
+  padding: 10px;
+}
+
+#silhouette_2 img
+{
+  float: right;
+  margin: 0px 0px 0px 30px;
+  padding: 10px;
+}
+
+#stay
+{
+  clear: left;
+}
+
+#section3  img
+{
+  float: left;
+  margin: 5px 5px 200px 5px;
+  padding: 10px;
+}
+
+#silhouette_3 img
+{
+  float: right;
+  margin: 8px 20px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#smile
+{
+  clear: left;
+}
+
+#section4  img
+{
+  float: left;
+  margin: 5px 5px 150px 5px;
+  padding: 10px;
+}
+
+#silhouette_4 img
+{
+  float: right;
+  margin: 0px 10px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#quick
+{
+  clear: left;
+}
+
+#section5  img
+{
+  float: center;
+  margin: 5px 5px 100px 15px;
+  padding: 10px;
+}
+
+#abc_video
+{
+  float: center;
+  margin: 0px 50px 5px 450px;
+}
+
+#collage
+{
+  float: center;
+  margin: 0px 290px 0px 110px;
+}
+
+#link_top
+{
+  text-align:center;
+  font-size: 20px;
+  height: auto;
+  padding: 5px;
+  margin: 0px 575px 50px 575px;
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+#link_top a:link, a:visited
+{
+  text-align:center;
+  text-decoration: none; 
+  font-size: 20px;
+  height: auto;
+  padding: 5px;
+  margin: auto;
+  font-family: Papyrus;
+  color: #BFFF00;
+}
+
+#link_top a:hover 
+{
+  text-decoration: none; 
+  color: #0040FF;
+  font-family: Papyrus;
+  font-weight: bold;
+  font-size: 24px;
+  }
+
+
+
+  
