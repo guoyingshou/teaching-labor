@@ -143,7 +143,8 @@ header h1 strong
 /* ======================================= QUOTE SECTION */
 #zinn
 {
-    background: url(img/strike_900.jpg) left top no-repeat black ;
+    background: url(img/ows-99.jpg) left top no-repeat black;
+    background-size: 100% auto;
 }
 
 #zinn blockquote
