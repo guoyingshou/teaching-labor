@@ -55,9 +55,11 @@ header h1, header h2
 
 header h1
 {
-    font-family: Superstar;
+    font-family: Superstar, Futura, Ubuntu, sans-serif;
     font-size: 80px;
-    text-shadow: 1px 2px 0px black;
+    font-weight: 0;
+/*    text-shadow: 1px 2px 0px black;
+*/
 }
 
 header h2
