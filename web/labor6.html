@@ -22,6 +22,7 @@ Things to look for in this version:
         <title>Teaching Labor, an Adelphi University MOOC</title>
         <meta charset="utf-8">
         <link href="css/labor4.css" type="text/css" rel="stylesheet" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -47,6 +48,7 @@ Things to look for in this version:
                 </p>
             </section>
 
+
             <section id="facts" align="center">
                 <div>
                     <h1>Quick Facts:</h1>
@@ -57,6 +59,7 @@ Things to look for in this version:
                     </ul>
                 </div>
             </section>
+
 
             <section id="who">
                 <h3>Two professors from <a href="http://www.adelphi.edu">Adelphi University</a> are organizing the course.</h3>
@@ -78,6 +81,7 @@ Things to look for in this version:
                 </div>
             </section>
 
+
             <section id="zinn">
                 <blockquote>
                     One percent of the nation owns a third of the wealth.
@@ -92,7 +96,7 @@ Things to look for in this version:
             </section>
 
             <section id="soon">
-                <video autoplay loop poster="img/madison.jpg" id="madison">
+                <video poster="img/madison.jpg" id="madison">
                     <source src="video/madison.mp4" type="video/mp4">
                     <source src="video/madison.ogg" type="video/ogg">
                 </video>
@@ -111,5 +115,17 @@ Things to look for in this version:
             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png">
         </footer>
     </body>
+<script lang="javascript">
+header = Math.round($("header h1").position().top);
+console.log(header);
+$(document).scroll( function() {
+        target = Math.round($(document).scrollTop() - $("#au-mooc").position().top);
+        console.log(target);
+        if(target == header)
+            console.log("==============================");
+            
+    });
+</script>
+
 </html> 
 

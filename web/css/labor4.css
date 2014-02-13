@@ -29,7 +29,7 @@ a
 
 section
 {
-        clear: both;
+    clear: both;
 }
 
 div.divide
@@ -46,6 +46,10 @@ div.divide
     margin: 0 auto;
     text-align: center;
 }
+.clear
+{
+    clear: both;
+}
 
 /* ======================================= HEADER STUFF */
 header
@@ -61,7 +65,6 @@ header
 
 header h1
 {
-/*    font-family: Superstar;*/    
     font-size: 54px;
     font-weight: normal;
     padding: 0;
@@ -107,28 +110,27 @@ header h1 strong
 /* ======================================= FACTS SECTION */
 #facts
 {
-    width: 90%;
     margin: 0 auto;
-    max-width: 1200px;
+    width: 80%;
+    min-width: 950px;
+    max-width: 1020px;
 }
 
-#facts a
-{
-    display: block;
-    padding: 0;
-    margin: 0;
-    float: left;
-}
 
 #facts div
 {
-    background-color: #000000;
-    color: white;
-    float: left;
-    font-size: 120%;
+    background: url(img/child-slavery.jpg) left top no-repeat black;
     height: 437px;
+    color: white;
+    font-size: 120%;
     padding: 0 2em;
-    width: 400px;
+    padding-left: 650px;  
+}
+
+#facts div ul
+{
+    width: 250px;
+    min-width: 250px;
 }
 
 /* ======================================= INSTRUCTORS SECTION */
