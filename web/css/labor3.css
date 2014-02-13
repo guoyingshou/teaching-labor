@@ -58,8 +58,8 @@ header h1
     font-family: Superstar, Futura, Ubuntu, sans-serif;
     font-size: 80px;
     font-weight: 0;
-/*    text-shadow: 1px 2px 0px black;
-*/
+    text-shadow: 1px 2px 0px black;
+
 }
 
 header h2
@@ -108,7 +108,7 @@ blockquote
 footer
 {
     /* official adelphi "brown" */
-    background-color: #FFFCCF; 
+    background-color: #441700; 
     padding: 2em;
     text-align: center;
     color: white;
