@@ -80,10 +80,11 @@ header h1 strong
 /* ======================================= INTRO SECTION */
 #intro
 {
-    background: url(img/disarm_1200.jpg) left 80px no-repeat white;
+    background: url(images/disarm_1200.jpg) left 80px no-repeat white;
     padding-top: 600px;
     text-align: center;
 }
+
 
 #intro h1
 {
@@ -120,7 +121,7 @@ header h1 strong
 
 #facts div
 {
-    background: url(img/child-slavery.jpg) left top no-repeat black;
+    background: url(images/child-slavery.jpg) left top no-repeat black;
     height: 437px;
     color: white;
     font-size: 120%;
@@ -152,13 +153,13 @@ header h1 strong
 }
 #who p#linne
 {
-    background: url("img/linne.png") no-repeat scroll center top #FFFFFF;
+    background: url("images/linne.png") no-repeat scroll center top #FFFFFF;
     float: left;
 }
 
 #who p#curinga
 {
-    background: url(img/curinga.png) no-repeat center top white;
+    background: url("images/curinga.png") no-repeat center top white;
     float: right;
 }
 
@@ -166,11 +167,15 @@ header h1 strong
 /* ======================================= QUOTE SECTION */
 #zinn
 {
-    background: url(img/ows-99.jpg) left top no-repeat black;
+    background: url(images/ows-99.jpg) left top no-repeat black;
     background-size: 100% auto;
     padding: 4em 0;
 }
 
+#padding{
+    padding-left: 10px;
+    margin-left: 20px;
+}
 #zinn blockquote
 {
     text-align: left;
@@ -186,7 +191,7 @@ header h1 strong
     margin: 0;
     max-width: 600px;
     text-align: justify;
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 2px 2px 0 black;
     hyphens: auto;
     -moz-hyphens: auto;
 }
@@ -223,7 +228,60 @@ header h1 strong
     height: auto; 
     z-index: -100;
 }
+.center
+{
+    background: url("images/ows-99.jpg");
+    height: auto;
+    width: auto;
+}   
+ul.nav
+{
+    background-color: black;
+    color: white;
+}
+.textbox
+{
+     background-color:rgba(97,95,95,0.3);
+     height: auto;
+     width: auto;
+     padding: 2px 2px;
+     margin: 2px 2px;
 
+}
+p.textbox
+{
+     background-color:rgba(97,95,95,0.3);
+     height: auto;
+     width: auto;
+     padding: 2px 2px;
+     margin: 2px 2px;
+
+}
+
+.picround1
+{
+    background: url(images/disarm_1200.jpg) no-repeat
+    background-image: url("images/disarm_1200.jpg");
+    opacity:0.4;
+    filter:alpha(opacity=40);
+
+
+}
+#myCarousel1
+{
+    background: url("images/labpix.jpg");
+    height: auto;
+    width: auto;
+
+}
+#myCarousel2
+{
+    background: url("images/child-slavery.jpg");
+}
+#myCarousel3
+{
+    background: url("images/child-slavery.jpg");
+}
 /* FOOTER */
 footer
 {
@@ -243,3 +301,5 @@ footer img
     display: block;
     margin: 0 auto;
 }
+
+

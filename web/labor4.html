@@ -1,43 +1,48 @@
-<!DOCTYPE html>
-<html>
-<!--
-labor4.html
-author: mxc
-This code was created by matt curinga for the web programming
-course, adelphi university, spring 2014.
-
-Things to look for in this version:
-
-- video
-- background images
-- "fixed" positioning
-- "absolute" position
-- rounded corners
-- semi-transparent backgrounds with alpha colors (rgba)
-- hyphens with &shy;
-- me with a mustache
-
--->
-    <head>
+   
+ <head>
         <title>Teaching Labor, an Adelphi University MOOC</title>
         <meta charset="utf-8">
         <link rel="icon" type="image/png" href="img/star.png">
         <link href="css/labor4.css" type="text/css" rel="stylesheet" />
-    </head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+      <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="carousel.css" rel="stylesheet">
+      <link href="labor4.css" type="text/css" rel="stylesheet" />
+      <link href="jumbotron-narrow.css" rel="stylesheet">
 
-    <body>
-        <header>
-            <h1><em>teaching</em><strong>Labor</strong></h1>
-        </header>
-        <article>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
 
-            <section id="intro">
-                <h1>Fall 2014</h1>
-                <h2 id="au-mooc">an Adelphi University MOOC</h2>
-            </section>
-            <section id="info">
-                <div class="divide"></div>
-                <p class="center">
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#myCarousel">About the Course</a></li>
+          <li><a href="#who">Professors</a></li>
+        </ul>
+        <h3 class="text-muted">an Adelphi University MOOC</h3>
+      </div>
+
+      <div class="jumbotron">
+        <div class = "picround1">
+       </div>
+    <div class="textbox">
+        <h1>Teaching Labor</h1>
+        <p class="lead"> 
+          <p class="center">
+          <p class="textbox">
+            <br>
+            <br>
                     In the Fall of 2014, we will launch a new <a href="http://www.educause.edu/library/massive-open-online-course-mooc" title="find out what a mooc is from educause">Massive
                     Open Online Course (MOOC)</a>
                     called <strong>Teaching Labor</strong>, where a group of
@@ -45,21 +50,11 @@ Things to look for in this version:
                     will come together to study the history of the working
                     class and labor movement, and develop methods for
                     incorporating these ideas into our schools and clasrooms.
-                </p>
-            </section>
-
-            <section id="facts" align="center">
-                <div>
-                    <h1>Quick Facts:</h1>
-                    <ul>
-                        <li>the course will be offered free of charge</li>
-                        <li>anyone with a computer and internet connection can sign up</li>
-                        <li>we encourage teachers and labor activists to join us</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="who">
+              </p>
+          </p>
+      </p>
+          </div>
+ <section id="who">
                 <h3>Two professors from <a href="http://www.adelphi.edu">Adelphi University</a> are organizing the course.</h3>
                 
                 <div class="center">
@@ -79,8 +74,42 @@ Things to look for in this version:
                 </div>
             </section>
 
-            <section id="zinn">
-                <blockquote>
+    </div>
+  </div>
+
+  <div>
+
+    <!-- Carousel Labor Specifi
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+         <img data-src="img/madison.jpg" alt="First slide">
+          <img src="img/madison.jpg" alt="First slide">
+         
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Teaching Labor</h1>
+              <p><h2>an Adelphi University MOOC </h2><br> <h2>Fall 2014</h2></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+           
+           <img data-src="img/child-slavery.jpg"alt="Second slide">
+           <img src="img/child-slavery.jpg" alt="First slide">
+      
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p> <blockquote>
                     One percent of the nation owns a third of the wealth.
                     The rest of the wealth is distributed in such a way as
                     to turn those in the 99 percent against one another:
@@ -89,29 +118,52 @@ Things to look for in this version:
                     intel&shy;lectuals and profess&shy;ionals against the uneducated
                     and the unskilled.<br>
                     — Howard Zinn, <em>A People's History of the United States</em>, 1980
-                </blockquote>
-            </section>
+                </blockquote></p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img data-src="img/labpix.jpg"alt="Second slide">
+            <img src="img/labpix.jpg" alt="First slide">
+          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Course Information</h1>
+              <p> 
+              <p>The course will be offered free of charge
+              </p>
 
-            <section id="soon">
-                <video autoplay loop poster="img/madison.jpg" id="madison">
-                    <source src="video/madison.mp4" type="video/mp4">
-                    <source src="video/madison.ogg" type="video/ogg">
-                    <source src="video/madison.ogg" type="video/webm">
-                </video>
+          <h4></h4>
+          <p>Anyone with a computer and internet connection can sign up.</p>
+
+          <h4></h4>
+          <p>we encourage teachers and labor activists to join us</p></p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+</div>
+</div>
+ -->
+
+
+			<section id="soon">
+           
                 <h1>Coming to the Internet<br>Fall 2014</h1>
                 <h2>For more information contact<br><a href="mailto:linne@adelphi.edu">linne@adelphi.edu</a></h2>
             </section>
-
-        </article>
-
-
-        <footer>
-            <img src="img/au-logo.png" alt="adelphi university logo">
-            <!-- license generated from creativecommons.org -->
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><strong>Teaching Labor Promo</strong></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://matt.curinga.com" property="cc:attributionName" rel="cc:attributionURL">matthew x. curinga</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/mcuringa/teaching-labor" rel="dct:source">https://github.com/mcuringa/teaching-labor</a>
+        
+         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><strong>Teaching Labor Promo</strong></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://matt.curinga.com" property="cc:attributionName" rel="cc:attributionURL">matthew x. curinga</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/mcuringa/teaching-labor" rel="dct:source">https://github.com/mcuringa/teaching-labor</a>
             <br><br>
             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png">
         </footer>
-    </body>
-</html> 
 
+
+
+    </div>
+    </html>
